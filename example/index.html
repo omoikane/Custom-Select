@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it">
+<head>
+
+	<title></title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript; charset=utf-8" />
+	<meta http-equiv="Content-Style-Type" content="text/css; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="en" />
+
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="Daniele De Nobili" />
+	<meta name="copyright" content="Copyright 2010 - All rights reserved" />
+
+	<link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+<form>
+	<fieldset>
+		<select name="name" class="selectChange">
+			<option value="1">John</option>
+			<option value="2">Bred</option>
+			<option value="3" selected="selected">Angelina</option>
+			<option value="4">Matt</option>
+		</select>
+		<select name="surname" class="selectChange">
+			<option value="1">Smith</option>
+			<option value="2">Pitt</option>
+			<option value="3">Jolie</option>
+			<option value="4">Demon</option>
+		</select>
+		<input type="submit" value="Send" />
+	</fieldset>
+</form>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="../lib/jquery.customselect.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$("select").customselect("hover");
+	});
+</script>
+
+</body>
+</html>
