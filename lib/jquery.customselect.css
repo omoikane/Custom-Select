@@ -13,9 +13,9 @@ select { width: 150px; }
 	.selectList { background-position: 0 0; display: block; float: left; height: 27px; left: 0; line-height: 18px; overflow: hidden; position: relative; white-space: nowrap; }
 		.selectList span { display: block; line-height: 26px; padding: 0 8px; }
 .selectBox { overflow: hidden; }
-    .selectBox ul { background-color: #F2F2F2; clear: none; display: none; float: left; margin: 0; margin-top: -45px; padding: 0; position: absolute; z-index: 90; -webkit-border-radius: 4px; -khtml-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
-        .selectBox li { border: 1px solid #CBCBCB; border-top-width: 0; clear: left; float: left; list-style: none; margin: 0; position: static; z-index: 100; }
-        .selectBox li.first { border-top-width: 1px; -webkit-border-radius: 4px 4px 0 0; -khtml-border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0; }
-        .selectBox li.last { -webkit-border-radius: 0 0 4px 4px; -khtml-border-radius: 0 0 4px 4px; -moz-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px; }
-            .selectBox li a { color: #4A4B4B; display: block; padding: 4px 8px; text-decoration: none; }
-            .selectBox li a:hover { background-color: #DE6327; color: #fff; }
+	.selectBox ul { background-color: #F2F2F2; clear: none; display: none; float: left; margin: 0; margin-top: -45px; padding: 0; position: absolute; z-index: 90; -webkit-border-radius: 4px; -khtml-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+		.selectBox li { border: 1px solid #CBCBCB; border-top-width: 0; clear: left; float: left; list-style: none; margin: 0; position: static; z-index: 100; }
+		.selectBox li.first { border-top-width: 1px; -webkit-border-radius: 4px 4px 0 0; -khtml-border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0; }
+		.selectBox li.last { -webkit-border-radius: 0 0 4px 4px; -khtml-border-radius: 0 0 4px 4px; -moz-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px; }
+			.selectBox li a { color: #4A4B4B; display: block; padding: 4px 8px; text-decoration: none; }
+			.selectBox li a:hover { background-color: #DE6327; color: #fff; }
