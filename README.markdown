@@ -11,13 +11,15 @@ Installation
 
 - Put the lib folder in your root site.
 - Install the [jQuery] [1] javascript library.
-- Add this code in the head of your page, __AFTER__ jQuery declaration:
+- Add this code, __AFTER__ jQuery declaration:
 		<script type="text/javascript" src="/lib/jquery.customselect.min.js"></script>
 		<script type="text/javascript">
 			$(function(){
 				$("select").customselect();
 			});
 		</script>
+- Add CSS file inside the head tag:
+		<link href="lib/jquery.customselect.css" rel="stylesheet" type="text/css" />
 
 
 Options
