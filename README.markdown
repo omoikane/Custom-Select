@@ -23,7 +23,11 @@ Installation
 Options
 -------
 
-No options available.
+It’s available a callback function:
+		$("select").customselect(function(v, l){
+			alert("Selected " + l + ' (' + v + ')');
+		});
+Where "v" is the value of option selected and "l" is the label.
 
 
 Example

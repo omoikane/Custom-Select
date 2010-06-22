@@ -42,7 +42,9 @@
 <script type="text/javascript" src="../lib/jquery.customselect.js"></script>
 <script type="text/javascript">
 	$(function(){
-		$("select").customselect("hover");
+		$("select").customselect(function(v, l){
+			alert("Hai selezionato " + l + ' (' + v + ')');
+		});
 	});
 </script>
 
