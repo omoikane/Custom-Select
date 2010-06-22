@@ -1,7 +1,7 @@
 Custom Select jQuery Plugin
 ===========================
 
-Creare un buon design per i moduli di un sito è sempre un’operazione abbastanza difficile.
+Creare un buon design per i moduli di un sito √® sempre un‚Äôoperazione abbastanza difficile.
 In modo particolare per le select, in quanto ogni browser le visualizza in modo diverso.
 Questo plugin per la libreria javascript jQuery serve a risolvere il problema!
 
@@ -23,7 +23,7 @@ Installation
 Options
 -------
 
-It’s available a callback function:
+It‚Äôs available a callback function:
 		$("select").customselect(function(v, l){
 			alert("Selected " + l + ' (' + v + ')');
 		});
