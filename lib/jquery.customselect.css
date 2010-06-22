@@ -4,10 +4,10 @@
 
 select { width: 150px; }
 
-.selectList, .selectBox ul, .spin { font: normal 11px Arial, Helvetica, sans-serif; color: #4A4B4B; }
+.selectList, .selectBox ul { font: normal 11px Arial, Helvetica, sans-serif; color: #4A4B4B; }
 .selectContent { display: block; cursor: pointer; height: 18px; line-height: normal; position: static; }
 	.selectContent a { display: block; padding: 0; }
-    .selectList, .selectArrow, .spin { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAA2CAMAAABKmVQOAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAGBQTFRFubm51NTUy1ce3WEk4+PjzMzM39/fyG9D8vLy9/f3+fn59vb29fX17Ozs7u7u+Pj49PT08PDw8fHx7+/v7e3t6urq8/Pz/Pz8/v7+6enp3mMnz8/P6+vr+vr6y8vLAAAAQT4gDAAAACB0Uk5T/////////////////////////////////////////wBcXBvtAAABJklEQVR42uzZ607CQBBA4W2hXLyjopXq7vu/pYuB0NCjGRN+GHPOI3yBSXcmldJkm5amlVSGxbq3SWk4q6tczeLVoAnWXqtbCRPDGirWlTBxrA+jTli9WGGsOuxHf0Oj0snqqFWx7o1KI6uDVsVaG8UD/tooxMo3RjHWg1GM9WJUovLKKB7wj0Yx1sYonllPRjHWnVH4BZ+fjcK3Yb41CrcO+d0o3GflrTA/Y40H/HxrEGI1zZtBeN0pXTOXJoC1vxt6kf7NRdqwdppY32Ltzpq1rVhRrKolVhhrJ5ZYF8XqxQpj1Ye0WEGsrxWNWCGsw/JPLAe8WGKJ9Z8f0mL5yxJLLLH8gvdtKJZbh4vOLPdZDnix/gyW15041qxdihV+SC/LpwADAF5rPJuARIb1AAAAAElFTkSuQmCC); background-repeat: no-repeat; }
+    .selectList, .selectArrow { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAA2CAMAAABKmVQOAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAGBQTFRFubm51NTUy1ce3WEk4+PjzMzM39/fyG9D8vLy9/f3+fn59vb29fX17Ozs7u7u+Pj49PT08PDw8fHx7+/v7e3t6urq8/Pz/Pz8/v7+6enp3mMnz8/P6+vr+vr6y8vLAAAAQT4gDAAAACB0Uk5T/////////////////////////////////////////wBcXBvtAAABJklEQVR42uzZ607CQBBA4W2hXLyjopXq7vu/pYuB0NCjGRN+GHPOI3yBSXcmldJkm5amlVSGxbq3SWk4q6tczeLVoAnWXqtbCRPDGirWlTBxrA+jTli9WGGsOuxHf0Oj0snqqFWx7o1KI6uDVsVaG8UD/tooxMo3RjHWg1GM9WJUovLKKB7wj0Yx1sYonllPRjHWnVH4BZ+fjcK3Yb41CrcO+d0o3GflrTA/Y40H/HxrEGI1zZtBeN0pXTOXJoC1vxt6kf7NRdqwdppY32Ltzpq1rVhRrKolVhhrJ5ZYF8XqxQpj1Ye0WEGsrxWNWCGsw/JPLAe8WGKJ9Z8f0mL5yxJLLLH8gvdtKJZbh4vOLPdZDnix/gyW15041qxdihV+SC/LpwADAF5rPJuARIb1AAAAAElFTkSuQmCC); background-repeat: no-repeat; }
     .selectArrow { background-position: 100% 0; float: left; display: inline-block; height: 27px; width: 20px; z-index: 150; }
     .selectArrow:hover { background-position: 100% 100%; }
 	.selectList { background-position: 0 0; display: block; float: left; height: 27px; left: 0; line-height: 18px; overflow: hidden; position: relative; white-space: nowrap; }
