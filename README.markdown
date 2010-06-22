@@ -1,9 +1,9 @@
 Custom Select jQuery Plugin
 ===========================
 
-Creare un buon design per i moduli di un sito è sempre un’operazione abbastanza difficile.
-In modo particolare per le select, in quanto ogni browser le visualizza in modo diverso.
-Questo plugin per la libreria javascript jQuery serve a risolvere il problema!
+Create a good design for the modules of a site is always a difficult enough.
+Especially for select, because each browser displays them differently.
+This plugin for the jQuery javascript library used to solve the problem!
 
 
 Installation
