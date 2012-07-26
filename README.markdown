@@ -12,23 +12,28 @@ Installation
 - Put the lib folder in your root site.
 - Install the [jQuery] [1] javascript library.
 - Add this code, __AFTER__ jQuery declaration:
-		<script type="text/javascript" src="/lib/jquery.customselect.min.js"></script>
-		<script type="text/javascript">
-			$(function(){
-				$("select").customselect();
-			});
-		</script>
+
+	<script type="text/javascript" src="/lib/jquery.customselect.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("select").customselect();
+		});
+	</script>
+
 - Add CSS file inside the head tag:
-		<link href="lib/jquery.customselect.css" rel="stylesheet" type="text/css" />
+
+	<link href="lib/jquery.customselect.css" rel="stylesheet" type="text/css" />
 
 
 Options
 -------
 
 It’s available a callback function:
-		$("select").customselect(function(v, l){
-			alert("Selected " + l + ' (' + v + ')');
-		});
+
+	$("select").customselect(function(v, l){
+		alert("Selected " + l + ' (' + v + ')');
+	});
+
 Where "v" is the value of option selected and "l" is the label.
 
 
